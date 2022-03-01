@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis&family=Lato:wght@300&display=swap");
+.header {
+  background-color: #f5f5f5;
+  background-image: url("../img/background_header.jpeg");
+  border-radius: 15px;
+  color: #f8f7ff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  height: 25vh;
+  padding: 0 20px; }
+
+.footer {
+  font-family: lato, sans-serif;
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* body */
+body {
+  background-color: #f8f7ff;
+  font-family: lato, sans-serif; }
+
+.container {
+  background-color: #eef0f2; }
+  .container .box {
+    background-color: #e1e5f2;
+    border-radius: 12px; }
+  .container .box-2 {
+    background-color: #e1e5f2;
+    border-radius: 12px; }
+  .container .carr-box {
+    color: white; }
+  .container .img-carr {
+    border-radius: 15px; }
+  .container .img-bio {
+    width: 85vh;
+    border-radius: 10px; }
+
+.referencias {
+  text-decoration: none; }
+
+.referencias-carr {
+  text-decoration: none;
+  color: white;
+  font-size: 50px; }
+
+/* FOOTER */

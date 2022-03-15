@@ -26,6 +26,122 @@
   margin-top: 20vh; }
 
 * {
+  margin: o;
+  padding: 0; }
+
+.card {
+  background-color: #edf2f4; }
+
+/*Bucles*/
+.h1 {
+  color: #2b2d42;
+  font-size: 25vh; }
+
+.image-1 {
+  width: 25vh;
+  height: auto; }
+
+.h2 {
+  color: #2b2d42;
+  font-size: 12.5vh; }
+
+.image-2 {
+  width: 12.5vh;
+  height: auto; }
+
+.h3 {
+  color: #2b2d42;
+  font-size: 8.33333vh; }
+
+.image-3 {
+  width: 8.33333vh;
+  height: auto; }
+
+.h4 {
+  color: #2b2d42;
+  font-size: 6.25vh; }
+
+.image-4 {
+  width: 6.25vh;
+  height: auto; }
+
+.h5 {
+  color: #2b2d42;
+  font-size: 5vh; }
+
+.image-5 {
+  width: 5vh;
+  height: auto; }
+
+.h6 {
+  color: #2b2d42;
+  font-size: 4.16667vh; }
+
+.image-6 {
+  width: 4.16667vh;
+  height: auto; }
+
+.var {
+  color: red;
+  height: 12.5vh; }
+
+.var {
+  color: blue;
+  height: 12.5vh; }
+
+.var {
+  color: green;
+  height: 12.5vh; }
+
+.var {
+  color: white;
+  height: 12.5vh; }
+
+.social-twitter {
+  background-image: url("img/var.png"); }
+
+.social-youtube {
+  background-image: url("img/var.png"); }
+
+.icon-social, .btn--twitter:hover, .btn--youtube:hover {
+  font-size: 2.5rem;
+  padding: 1.5rem; }
+
+/*bucle para valores del mapa*/
+:hover.btn--twitter {
+  background-color: #03045e; }
+
+:hover.btn--youtube {
+  background-color: #03045e; }
+
+.box {
+  height: 50px;
+  width: 500px;
+  background-color: #03045e; }
+
+.social {
+  background-color: #caf0f8;
+  width: 50px;
+  position: absolute;
+  top: 45vh;
+  right: 20px; }
+  .social ul {
+    list-style: none;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column; }
+    .social ul li {
+      transition: all 0.5s ease; }
+      .social ul li a {
+        color: #03045e;
+        text-decoration: none;
+        font-size: 1.5rem; }
+    .social ul:hover {
+      transform: scale(1.4); }
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }

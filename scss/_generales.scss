@@ -1,0 +1,78 @@
+* {
+    margin: o;
+    padding: 0;
+
+}
+
+
+
+.card {
+    background-color: $background_card;
+    
+}
+
+/*Bucles*/
+
+@for $i from 1 through 6 {
+    .h#{$i} {
+        color: #2b2d42;
+        font-size: $header_alto / #{$i};
+    }
+
+    .image-#{$i} {
+        width: $header_alto / #{$i};
+        height: auto;
+
+    }
+}
+
+
+//* each //*
+
+@each $var in red, blue, green, white, {
+    .#{var} {
+        color: $var;
+        height: $header_alto / 2;
+    }
+}
+
+@each $var in twitter, youtube {
+    .social-#{$var} {
+        background-image: url("img/#{var}.png" )
+    }
+}
+
+//maps
+
+$redes: ( /*mapa*/
+    twitter: #55acee,
+    youtube: #c72f2f,
+);
+
+.icon-social{
+    font-size: 2.5rem;
+    padding: 1.5rem;
+}
+
+/*bucle para valores del mapa*/
+
+@each $red, $color in $redes {
+    &:hover.btn--#{$red} {
+        background-color: $colorcito;
+       @extend .icon-social;
+    }
+} 
+
+//Mixins
+
+@mixin sizes($width, $height, $color) {
+    height: $height;
+    width: $width;
+    background-color: $colorcito;  
+}
+
+.box {
+    @include sizes(500px, 50px, #55acee)
+}
+
+    

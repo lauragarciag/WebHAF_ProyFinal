@@ -177,6 +177,19 @@ body {
   width: 85vh;
   border-radius: 10px; }
 
+.container .title_art_text {
+  text-decoration: none;
+  color: #023047;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 15px;
+  padding-left: 5px; }
+
+.container .bookbutton {
+  color: white;
+  text-decoration: none; }
+
 .referencias {
   text-decoration: none;
   color: #013a63; }

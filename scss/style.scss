@@ -53,6 +53,21 @@ body {
         width: 85vh;
         border-radius: 10px;
     }
+
+    .title_art_text {
+        text-decoration: none;
+        color: #023047;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 15px;
+        padding-left: 5px;
+    }
+
+    .bookbutton {
+        color: white;
+        text-decoration: none;
+    }
 }
 
 .referencias {
@@ -79,6 +94,8 @@ body {
     font-size: 50px;
     font-weight: bold;
 }
+
+
 
 /* FOOTER */
 

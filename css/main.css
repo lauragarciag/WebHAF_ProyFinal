@@ -172,12 +172,21 @@ body {
   border-radius: 10px; }
 
 .referencias {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #013a63; }
 
 .referencias-carr {
   text-decoration: none;
   color: white;
-  font-size: 50px; }
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 400px; }
+
+.carr-title {
+  text-decoration: none;
+  color: white; }
 
 .text-pod {
   font-size: 50px;

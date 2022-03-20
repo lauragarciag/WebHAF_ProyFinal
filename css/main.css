@@ -161,8 +161,14 @@ body {
   border-radius: 12px; }
 
 .container .carr-box {
-  color: white;
-  font-size: 20px; }
+  color: #14213d;
+  font-size: 20px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px; }
 
 .container .img-carr {
   border-radius: 15px; }
@@ -182,7 +188,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 400px; }
+  padding-bottom: 380px; }
 
 .carr-title {
   text-decoration: none;

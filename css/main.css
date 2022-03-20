@@ -174,8 +174,8 @@ body {
   border-radius: 15px; }
 
 .container .img-bio {
-  width: 85vh;
-  border-radius: 10px; }
+  border-style: groove;
+  border-radius: 20px; }
 
 .container .title_art_text {
   text-decoration: none;

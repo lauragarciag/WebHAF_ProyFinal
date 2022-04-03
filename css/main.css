@@ -141,6 +141,14 @@
     .social ul:hover {
       transform: scale(1.4); }
 
+.typo-bio {
+  font-size: 20px; }
+
+.typo-titlebio {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
 * {
   margin: 0;
   padding: 0;
@@ -174,6 +182,9 @@ body {
   border-radius: 15px; }
 
 .container .img-bio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-style: groove;
   border-radius: 20px; }
 

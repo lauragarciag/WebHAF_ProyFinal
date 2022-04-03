@@ -5,7 +5,7 @@
 @import "_variables";
 @import "_generales";
 @import "_social";
-@import "_typo-bio"
+@import "_typo-bio";
 
 * {
     margin: 0;
@@ -51,9 +51,13 @@ body {
     }
 
     .img-bio {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         border-style:groove;
         border-radius: 20px;   
     }
+
 
     .title_art_text {
         text-decoration: none;
